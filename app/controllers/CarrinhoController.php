@@ -1,6 +1,7 @@
 <?php
+require_once '../core/Controller.php';
 
-class CarrinhoController
+class CarrinhoController extends Controller
 {
     public function adicionar($id)
     {
@@ -179,6 +180,11 @@ class CarrinhoController
 
         header('Location: /carrinho/ver');
         exit;
+    }
+
+    public function sucesso()
+    {
+        $this->view('carrinho/sucesso');
     }
 
     public function removerCupom()
