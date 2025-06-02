@@ -3,7 +3,7 @@ require_once '../core/Controller.php';
 
 class PedidoController extends Controller {
 
-    public function index() {
+    public function listar() {
         $pedidoModel = $this->model('Pedido');
         $pedidos = $pedidoModel->getAll();
         $this->view('pedidos/lista', ['pedidos' => $pedidos]);

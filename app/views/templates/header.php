@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="/produto/index">Produtos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/pedido/checkout">Pedidos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/pedido/listar">Pedidos</a></li>
                 <li class="nav-item"><a class="nav-link" href="/cupom/index">Cupons</a></li>
             </ul>
         </div>

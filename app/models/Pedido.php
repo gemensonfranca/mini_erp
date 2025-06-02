@@ -9,7 +9,7 @@ class Pedido {
     }
 
     public function getAll() {
-        $stmt = $this->pdo->query("SELECT * FROM pedidos ORDER BY created_at DESC");
+        $stmt = $this->pdo->query("SELECT * FROM pedidos ORDER BY id DESC");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
